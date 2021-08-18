@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'),
+    url('/fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('/fonts/BebasNeueRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0; /* відключаємо зовнішні властивості*/
+  padding: 0; /* відключаємо внутрішні властивості*/
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #635854;
+  padding: 12px 0;
+  border-bottom: 4px solid #3596f5;
+}
+.navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex; /* блок гнучкий*/
+  justify-content: space-between;
+  align-items: center;
+}
+ul.navbar-menu {
+  display: flex;
+  text-align: center;
+  list-style: none; /*відключаємо точки*/
+}
+li.navbar-item {
+  margin: 0 40px;
+}
+a.navbar-link {
+  text-decoration: none; /*відключаємо підкреслення*/
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navbar-contacts {
+  text-align: right;
+}
+span.navbar-text {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+a.navbar-phone {
+  text-decoration: none; /*відключаємо підкреслення*/
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 54px;
+  display: flex;
+}
+h2.main-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 37px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #635854;
+}
+.main-info {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-image path {
+  opacity: 0;
+  cursor: pointer;
+}
+.home-image path:hover {
+  opacity: 1;
+}
+.counter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button.counter-button {
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+button.counter-down {
+  transform: rotateX(180deg);
+}
+span.counter {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 124px;
+  text-align: center;
+  color: #635854;
+  margin: 10px 0;
+}
+button.button-primary {
+  width: 297px;
+  height: 51px;
+  background-color: #3596f5;
+  color: #fff;
+  padding: 16px 36px; /* центруємо кнопку*/
+  border: none;
+  cursor: pointer;
+}

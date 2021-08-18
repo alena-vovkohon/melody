@@ -1,0 +1,29 @@
+<svg
+  width="734"
+  height="640"
+  viewBox="0 0 734 640"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<rect width="734" height="640" fill="url(#pattern0)" />
+<path
+    d="M222 423V399.3L443 387L514 410V431.3L443 419L222 423Z"
+    fill="#3595F6"
+    fill-opacity="0.75"
+  />
+<defs>
+<pattern
+      id="pattern0"
+      patternContentUnits="objectBoundingBox"
+      width="1"
+      height="1"
+    >
+<use
+        xlink:href="#image0"
+        transform="translate(-0.00408719) scale(0.0013624 0.0015625)"
+      />
+</pattern>
+<image id="image0" width="740" height="640" xlink:href="img/home.png" />
+</defs>
+</svg>
